@@ -1,0 +1,140 @@
+/* 列表页专有的CSS */
+.nav {
+    overflow: hidden;
+}
+
+/* logo秒杀 */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+/* 导航栏 */
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_content {
+    float: left;
+}
+
+.sk_content ul li {
+    float: left;
+}
+
+.sk_content ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+
+.sk_content ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\ea52';
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 400px;
+    padding: 0 15px;
+    border: 1px solid transparent;
+    /* background-color: pink; */
+}
+
+.sk_bd ul li:nth-child(4n)
+{
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+
+.sk_bd ul li img {
+    width: 260px;
+    height: 260px;
+}
+
+/* 列表广告模块-自写 */
+.info {
+    padding: 0 10px;
+}
+
+.info .money_symbol {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.info .money {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.now_money {
+    margin-top: 10px;
+}
+
+.info .original_price {
+    margin-left: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.info .sell {
+    margin-top: 4px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.info .selled {
+    float: left;
+    font-size: 10px;
+}
+
+.info .slider_out {
+    position: relative;
+    float: left;
+    margin: 0 5px;
+    width: 130px;
+    height: 16px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.info .slider_in {
+    position: absolute;
+    width: 104px;
+    height: 14px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 7px 0 0 7px;
+}
+
+.info button {
+    margin-top: 4px;
+    margin-left: -11px;
+    height: 40px;
+    width: 260px;
+    color: white;
+    font-size: 16px;
+    background-color: darkred;
+}
